@@ -1,0 +1,21 @@
+<p>login works!</p>
+
+<form [formGroup]="logInForm">
+    <label>First Name  </label>
+    <input formControlName="firstName" type ="text">
+    <br>
+    <br>
+    <label>Last Name  </label>
+    <input formControlName="lastName" type ="text">
+    <br>
+    <br>
+    <label>Date of Birth  </label>
+    <input formControlName="birthDate" type ="text">
+    <br>
+    <br>
+    <button (click)="submit()">Submit</button>
+
+</form>
+
+
+
